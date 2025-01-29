@@ -43,7 +43,5 @@ namespace RamiroMoralesApiOlimpiadas.Controllers
             var respuesta = _neResultado.NumeroIntentosDeportistas();
             return Ok(respuesta);
         }
-
-
     }
 }
