@@ -13,6 +13,7 @@ namespace RamiroMoralesApiOlimpiadas.Negocio.LogicaNegocio
         IEnumerable<Resultado> ListaResultadosOlimpiadas();
         DtoRespuesta InsertarResultadoDeportista(DtoInsertarResultados entidad);
         List<DtoResultadoDeportista> BucarDeportistaPorId(string idDeportista);
+        List<DtoNumeroIntentos> NumeroIntentosDeportistas();
 
     }
 }

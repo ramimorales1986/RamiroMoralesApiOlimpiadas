@@ -9,7 +9,7 @@ using RamiroMoralesApiOlimpiadas.Negocio.LogicaNegocio;
 namespace RamiroMoralesApiOlimpiadas.Controllers
 {
     [ApiController]
-    [Route("api/RamiroMoralesApiOlimpiadas/[controller]/[action]")]
+    [Route("api/ApiOlimpiadas/[controller]/[action]")]
     [Authorize]
     public class ResultadosController : Controller
     {
@@ -19,7 +19,7 @@ namespace RamiroMoralesApiOlimpiadas.Controllers
             _neResultado = neResultado;
         }        
         [HttpGet]
-        public IActionResult Get()
+        public IActionResult ListarResultados()
         {
             var respuesta = _neResultado.ListaResultadosOlimpiadas();
             return Ok(respuesta);
@@ -35,6 +35,12 @@ namespace RamiroMoralesApiOlimpiadas.Controllers
         public IActionResult BuscarResultadoDeportista(string id)
         {
             var respuesta = _neResultado.BucarDeportistaPorId(id);
+            return Ok(respuesta);
+        }
+        [HttpPost]
+        public IActionResult ListarNumeroIntentos()
+        {
+            var respuesta = _neResultado.NumeroIntentosDeportistas();
             return Ok(respuesta);
         }
 

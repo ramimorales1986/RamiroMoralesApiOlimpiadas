@@ -13,5 +13,6 @@ namespace RamiroMoralesApiOlimpiadas.Repositorio.Resultados
         IEnumerable<Resultado> ListaResultados();
         DtoRespuesta InsertarResultado(DtoInsertarResultados entidad);
         List<DtoResultadoDeportista> ConsultarResulatdosPorDeportistas(string idDeportista);
+        List<DtoNumeroIntentos> NumeroDeIntentos();
     }
 }

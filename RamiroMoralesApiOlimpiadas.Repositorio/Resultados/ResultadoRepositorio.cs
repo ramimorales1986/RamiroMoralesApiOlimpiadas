@@ -4,6 +4,7 @@ using RamiroMoralesApiOlimpiadas.Dto.Integracion;
 using RamiroMoralesApiOlimpiadas.Entidades.Entidades;
 using RamiroMoralesApiOlimpiadas.Infraestructura.Constantes;
 using RamiroMoralesApiOlimpiadas.Infraestructura.Contextos;
+using System.Collections.Generic;
 
 namespace RamiroMoralesApiOlimpiadas.Repositorio.Resultados
 {
@@ -23,7 +24,6 @@ namespace RamiroMoralesApiOlimpiadas.Repositorio.Resultados
 
         public List<DtoResultadoDeportista> ConsultarResulatdosPorDeportistas(string idDeportista)
         {
-            List<DtoResultadoDeportista> respuesta = new List<DtoResultadoDeportista>();
             using (var context = new OlimpiadasDbContext())
             {
                 var clientIdParameter = new SqlParameter("@idDeportista", idDeportista);
@@ -82,5 +82,16 @@ namespace RamiroMoralesApiOlimpiadas.Repositorio.Resultados
 
             }
         }
+
+
+        public List<DtoNumeroIntentos> NumeroDeIntentos()
+        {            
+            using (var context = new OlimpiadasDbContext())
+            {
+                var result = context.Database.SqlQueryRaw<DtoNumeroIntentos>("NumeroIntentos").ToList();
+                return result;
+            }
+        }
+
     }
 }

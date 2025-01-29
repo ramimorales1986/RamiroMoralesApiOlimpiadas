@@ -64,5 +64,19 @@ namespace RamiroMoralesApiOlimpiadas.Negocio.LogicaNegocio
             }
         }
 
+        public List<DtoNumeroIntentos> NumeroIntentosDeportistas()
+        {
+            try
+            {
+                var resultados = _neResultado!.NumeroDeIntentos();
+                return resultados;
+            }
+            catch (Exception ex)
+            {
+                _log.GuardarLog(ex.Message);
+                return new List<DtoNumeroIntentos>();
+            }
+        }
+
     }
 }
