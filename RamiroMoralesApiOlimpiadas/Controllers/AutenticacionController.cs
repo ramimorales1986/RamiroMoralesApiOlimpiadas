@@ -11,7 +11,7 @@ using RamiroMoralesApiOlimpiadas.Negocio.LogicaNegocio;
 namespace RamiroMoralesApiOlimpiadas.Controllers
 {
     [ApiController]
-    [Route("api/RamiroMoralesApiOlimpiadas/[controller]/[action]")]
+    [Route("api/ApiOlimpiadas/[controller]/[action]")]
     public class AutenticacionController : Controller
     {
         private readonly string? _secretKey;
