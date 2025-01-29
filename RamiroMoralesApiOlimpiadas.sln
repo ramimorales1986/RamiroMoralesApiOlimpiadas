@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RamiroMoralesApiOlimpiadas", "RamiroMoralesApiOlimpiadas\RamiroMoralesApiOlimpiadas.csproj", "{277B84A5-33F3-4E87-80E2-F05AF5E9C8DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RamiroMoralesApiOlimpiadas.Dto", "RamiroMoralesApiOlimpiadas.Dto\RamiroMoralesApiOlimpiadas.Dto.csproj", "{0CFBEA6B-D38C-4A1D-8FF2-3F9F089B6E2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RamiroMoralesApiOlimpiadas.Entidades", "RamiroMoralesApiOlimpiadas.Entidades\RamiroMoralesApiOlimpiadas.Entidades.csproj", "{21D66FBE-A106-499D-B7E2-1D50CA17BCC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RamiroMoralesApiOlimpiadas.Infraestructura", "RamiroMoralesApiOlimpiadas.Infraestructura\RamiroMoralesApiOlimpiadas.Infraestructura.csproj", "{6603E39F-136D-4D9E-8F4C-1B52DB64BE6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RamiroMoralesApiOlimpiadas.Negocio", "RamiroMoralesApiOlimpiadas.Negocio\RamiroMoralesApiOlimpiadas.Negocio.csproj", "{B3B47222-8576-45D8-B2AB-C6892D2567E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RamiroMoralesApiOlimpiadas.Repositorio", "RamiroMoralesApiOlimpiadas.Repositorio\RamiroMoralesApiOlimpiadas.Repositorio.csproj", "{AA646039-3D7C-471D-BB44-F9BF041EF14A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{277B84A5-33F3-4E87-80E2-F05AF5E9C8DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{277B84A5-33F3-4E87-80E2-F05AF5E9C8DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{277B84A5-33F3-4E87-80E2-F05AF5E9C8DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{277B84A5-33F3-4E87-80E2-F05AF5E9C8DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CFBEA6B-D38C-4A1D-8FF2-3F9F089B6E2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CFBEA6B-D38C-4A1D-8FF2-3F9F089B6E2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CFBEA6B-D38C-4A1D-8FF2-3F9F089B6E2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CFBEA6B-D38C-4A1D-8FF2-3F9F089B6E2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21D66FBE-A106-499D-B7E2-1D50CA17BCC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21D66FBE-A106-499D-B7E2-1D50CA17BCC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21D66FBE-A106-499D-B7E2-1D50CA17BCC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21D66FBE-A106-499D-B7E2-1D50CA17BCC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6603E39F-136D-4D9E-8F4C-1B52DB64BE6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6603E39F-136D-4D9E-8F4C-1B52DB64BE6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6603E39F-136D-4D9E-8F4C-1B52DB64BE6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6603E39F-136D-4D9E-8F4C-1B52DB64BE6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3B47222-8576-45D8-B2AB-C6892D2567E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3B47222-8576-45D8-B2AB-C6892D2567E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3B47222-8576-45D8-B2AB-C6892D2567E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3B47222-8576-45D8-B2AB-C6892D2567E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA646039-3D7C-471D-BB44-F9BF041EF14A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA646039-3D7C-471D-BB44-F9BF041EF14A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA646039-3D7C-471D-BB44-F9BF041EF14A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA646039-3D7C-471D-BB44-F9BF041EF14A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+@RamiroMoralesApiOlimpiadas_HostAddress = http://localhost:5150
+
+GET {{RamiroMoralesApiOlimpiadas_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
