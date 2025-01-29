@@ -1,5 +1,5 @@
 ﻿using RamiroMoralesApiOlimpiadas.Dto.Autenticacion;
-using RamiroMoralesApiOlimpiadas.Repositorio.Log;
+using RamiroMoralesApiOlimpiadas.Repositorio.Excepciones;
 using RamiroMoralesApiOlimpiadas.Repositorio.Usuario;
 using System;
 using System.Collections.Generic;

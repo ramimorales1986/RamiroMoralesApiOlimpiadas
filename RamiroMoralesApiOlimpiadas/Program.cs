@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using RamiroMoralesApiOlimpiadas.Negocio.LogicaNegocio;
-using RamiroMoralesApiOlimpiadas.Repositorio.Log;
+using RamiroMoralesApiOlimpiadas.Repositorio.Excepciones;
 using RamiroMoralesApiOlimpiadas.Repositorio.Resultados;
 using RamiroMoralesApiOlimpiadas.Repositorio.Usuario;
 using System.Text;
